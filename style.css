@@ -1,0 +1,23 @@
+body{
+    background-color: #33435f;
+}
+
+.container{
+    background-color: #bde9ed;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+h2 {
+    color: #0379e8;
+}
+th,
+td {
+    text-align: center;
+}
+
+#totalAmount{
+    font-weight: bold;
+    font-size: 18px;
+}
