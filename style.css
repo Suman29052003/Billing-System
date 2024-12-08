@@ -1,14 +1,27 @@
 body{
     background-color: #33435f;
+    margin: 0;
+    padding: 0;
+     width: 100%; 
+    height: 100vh; 
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .container{
     background-color: #bde9ed;
     padding: 30px;
     border-radius: 10px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
+._buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* justify-content: center; */
+}
 h2 {
     color: #0379e8;
 }

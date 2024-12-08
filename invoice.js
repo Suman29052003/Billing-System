@@ -57,6 +57,7 @@ $("#invoiceForm").submit(function (event){
 
 function printInvoice(){
     const customerName = $("#customerName").val();
+    console.log("Customer Name:", customerName); 
     const invoiceDate = $("#invoiceDate").val();
     const items = [];
 
@@ -107,7 +108,7 @@ function printInvoice(){
                </head>
             
                <body>
-                   <h2>Invoice Slip</h2>
+                   <h2>Sushanta Photo Corner</h2>
                    <p><strong>Customer Name:</strong> ${customerName}</p>
                    <p><strong>Date and Time:</strong> ${invoiceDate}</p>
                    <table>
